@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet, SGDRegressor
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.svm import SVR
-from sklearn.ensemble import AdaBoostRegressor
+from sklearn.ensemble import AdaBoostRegressor,RandomForestRegressor
 from src.InsurencePremiumPrediction.exception import customexception
 from src.InsurencePremiumPrediction.logger import logging
 
@@ -37,6 +37,7 @@ class ModelTrainer:
             models = {
                 'LinearRegression': LinearRegression(),
                 'DecisionTree': DecisionTreeRegressor(),
+                'RandomForestRegressor':RandomForestRegressor(),
                 'AdaboostRegressor': AdaBoostRegressor(),
                 'SGDRegressor': SGDRegressor(),
                 'Lasso': Lasso(),
