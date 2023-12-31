@@ -1,0 +1,115 @@
+<html>
+<body>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+       
+    }
+    
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+
+    select {
+        height: 36px;
+    }
+
+    input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+  
+<h1 style="text-align: center;">Welcome to Insurance Premium predector Web App</h1>
+<h5 style="text-align: center;" >By:Md Rian Ur Rahaman </h5>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="age">age:</label>
+        <input type="text" id="age" name="age" placeholder="Enter age value ">
+    </div>
+
+    
+
+    <div class="form-group">  
+        <label for="bmi">bmi:</label>
+        <input type="text" id="bmi" name="bmi" placeholder="Enter bmi value ">
+    </div>
+    
+    <div class="form-group">
+        <label for="children">children:</label>
+        <input type="text" id="children" name="children" placeholder="Enter children value">
+    </div>
+         
+  
+<div class="form-group">
+  <label for="sex">sex:</label>
+  <select id="sex" name="sex">
+    <option value="male">male</option>
+    <option value="female">female</option>
+  </select>
+</div>
+  
+<div class="form-group">
+  <label for="smoker">smoker:</label>
+  <select id="smoker" name="smoker">
+    <option value="yes">yes</option>
+    <option value="no">no</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label for="region">region:</label>
+  <select id="region" name="region">
+    <option value="southwest">southwest</option>
+    <option value="northwest">northwest</option>
+    <option value="northeast">northeast</option>
+    <option value="southeast">southeast</option>
+  </select>
+</div>
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+
+
+
+</body>
+</html>
