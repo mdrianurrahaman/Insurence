@@ -1,4 +1,4 @@
-FROM python:3.10.6-slim-buster 
+FROM python:3.8-slim-buster 
 WORKDIR /service
 COPY requirements.txt .
 COPY . ./
