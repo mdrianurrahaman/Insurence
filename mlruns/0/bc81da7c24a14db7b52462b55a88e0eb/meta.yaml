@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ramiu/Desktop/EndToEndProject/Insurence/mlruns/0/bc81da7c24a14db7b52462b55a88e0eb/artifacts
+end_time: 1704480085470
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bc81da7c24a14db7b52462b55a88e0eb
+run_name: incongruous-auk-138
+run_uuid: bc81da7c24a14db7b52462b55a88e0eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704480080738
+status: 3
+tags: []
+user_id: ramiu
