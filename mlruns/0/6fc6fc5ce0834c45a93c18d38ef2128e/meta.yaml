@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ramiu/Desktop/EndToEndProject/Insurence/mlruns/0/6fc6fc5ce0834c45a93c18d38ef2128e/artifacts
+end_time: 1704562309431
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6fc6fc5ce0834c45a93c18d38ef2128e
+run_name: thoughtful-ray-974
+run_uuid: 6fc6fc5ce0834c45a93c18d38ef2128e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704562306077
+status: 3
+tags: []
+user_id: ramiu

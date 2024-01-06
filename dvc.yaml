@@ -1,0 +1,16 @@
+stages:
+  training:
+    cmd: python src/InsurencePremiumPrediction/pipelines/training_pipeline.py
+    deps:
+      - src/InsurencePremiumPrediction/pipelines/training_pipeline.py
+      - src/InsurencePremiumPrediction/components/data_ingestion.py
+      - src/InsurencePremiumPrediction/components/data_transformation.py
+      - src/InsurencePremiumPrediction/components/model_trainer.py
+      - src/InsurencePremiumPrediction/components/model_evaluation.py
+
+    outs:
+      - artifacts/raw.csv
+      - artifacts/test.csv
+      - artifacts/train.csv
+      - artifacts/preprocessor.pkl
+      - artifacts/model.pkl

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ramiu/Desktop/EndToEndProject/Insurence/mlruns/0/176651755e0c4c1db1011d94236dda4e/artifacts
+end_time: 1704562174873
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 176651755e0c4c1db1011d94236dda4e
+run_name: awesome-dolphin-490
+run_uuid: 176651755e0c4c1db1011d94236dda4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704562170209
+status: 3
+tags: []
+user_id: ramiu

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ramiu/Desktop/EndToEndProject/Insurence/mlruns/0/e0397fb955e94fa9bc909592a924725b/artifacts
+end_time: 1704562263464
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e0397fb955e94fa9bc909592a924725b
+run_name: defiant-mouse-471
+run_uuid: e0397fb955e94fa9bc909592a924725b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704562260210
+status: 3
+tags: []
+user_id: ramiu

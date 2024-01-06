@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ramiu/Desktop/EndToEndProject/Insurence/mlruns/0/f7dbd0a9642a4876a637ed7cb2730008/artifacts
+end_time: 1704562286997
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f7dbd0a9642a4876a637ed7cb2730008
+run_name: thoughtful-carp-450
+run_uuid: f7dbd0a9642a4876a637ed7cb2730008
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704562283812
+status: 3
+tags: []
+user_id: ramiu
