@@ -65,5 +65,3 @@ dvc dag
   MLFLOW_TRACKING_USERNAME=mdrianurrahaman 
   MLFLOW_TRACKING_PASSWORD=your_token  
   python script.py
-
-Hi  
